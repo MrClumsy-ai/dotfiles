@@ -38,7 +38,7 @@ wget https://www.python.org/ftp/python/3.12.0/Python-3.12.0.tgz
 cd Python-3.12.0
 ./configure --enable-optimizations
 make -j 8
-make altinstall
+sudo make altinstall
 ```
 
 ## 5. Installing typescript
