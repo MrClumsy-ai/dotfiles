@@ -2,19 +2,8 @@
 
 ## 1. Dependencies
 
-copy and paste or sudo bash get-dependencies.sh
-
 ```
-sudo apt update && sudo apt upgrade -y && \
-sudo apt autoremove && sudo apt-get update -y
-sudo apt-get install ninja-build gettext cmake \
-curl build-essential nodejs npm golang git pip \
-libssl-dev zlib1g-dev libbz2-dev libreadline-dev \
-libsqlite3-dev wget llvm libncurses5-dev libncursesw5-dev \
-xz-utils tk-dev libffi-dev liblzma-dev python3-openssl \
-binutils bison gcc ripgrep zsh neofetch unzip fzf tmux \
-flatpak gnome-software-plugin-flatpak copyq i3 feh dmenu \
-picom xinput polybar brightnessctl stow python3-venv
+sudo bash get-dependencies.sh
 ```
 
 ## 2. Installing go

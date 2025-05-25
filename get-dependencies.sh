@@ -12,5 +12,5 @@ libsqlite3-dev wget llvm libncurses5-dev libncursesw5-dev \
 xz-utils tk-dev libffi-dev liblzma-dev python3-openssl \
 binutils bison gcc ripgrep zsh neofetch unzip fzf tmux \
 flatpak gnome-software-plugin-flatpak copyq i3 feh dmenu \
-picom xinput polybar brightnessctl stow python3-venv
+picom xinput polybar brightnessctl stow python3-venv zip
 echo "ig this is it gng..."
