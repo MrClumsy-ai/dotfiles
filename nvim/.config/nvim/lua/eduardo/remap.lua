@@ -1,5 +1,5 @@
 -- project viewer (open nvim file explorer)
--- vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 -- enter normal mode
 vim.keymap.set("i", "<C-j>", "<Esc>")
