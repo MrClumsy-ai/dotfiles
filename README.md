@@ -1,6 +1,7 @@
 # Instalation 
 ## 1. Dependencies
 
+copy and paste or sudo bash get-dependencies.sh
 ```
 sudo apt update && sudo apt upgrade -y && \
 sudo apt autoremove && sudo apt-get update -y
