@@ -62,4 +62,16 @@ return {
 			vim.keymap.set("n", "<leader>gp", ":Git push<CR>")
 		end,
 	},
+	{
+		"lewis6991/gitsigns.nvim",
+		opts = {
+			signs = {
+				add = { text = "+" },
+				change = { text = "~" },
+				delete = { text = "-" },
+				topdelete = { text = "_" },
+				changedelete = { text = "~" },
+			},
+		},
+	},
 }
