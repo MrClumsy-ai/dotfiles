@@ -11,7 +11,7 @@ return {
 				css = { "prettier" },
 				json = { "prettier" },
 				markdown = { "prettier" },
-				python = { "ast-grep" },
+				python = { "pylsp" },
 				go = { "gofumpt" },
 				c = { "ast-grep" },
 			},
