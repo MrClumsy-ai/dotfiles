@@ -11,12 +11,19 @@
 
 set $mod Mod1
 bindsym $mod+space exec rofi -show combi
+# search for apps
 exec_always --no-startup-id killall polybar
+# top bar with info
 exec_always --no-startup-id polybar
+# transparency
 exec_always --no-startup-id compton
+# background
 exec_always feh --bg-fill /usr/share/backgrounds/Dynamic_Wallpapers/Catalina/Catalina-7.jpg
+# brightness buttons
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+# disable borders
+for_window [class="^.*"] border pixel 0
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
