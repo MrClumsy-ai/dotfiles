@@ -11,6 +11,7 @@
 
 set $mod Mod1
 bindsym $mod+space exec rofi -show combi
+bindsym $mod+Shift+s exec flameshot gui
 # search for apps
 exec_always --no-startup-id killall polybar
 # top bar with info
