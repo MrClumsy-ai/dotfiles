@@ -17,4 +17,6 @@ xz-utils tk-dev libffi-dev liblzma-dev python3-openssl \
 binutils bison gcc ripgrep zsh neofetch unzip fzf tmux \
 flatpak gnome-software-plugin-flatpak copyq i3 feh dmenu \
 picom xinput polybar brightnessctl stow python3-venv zip
+
+echo "probably a good idea to reboot vro"
 echo "ig this is it gng..."
