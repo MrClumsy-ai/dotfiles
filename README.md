@@ -94,3 +94,13 @@ sudo apt update
 sudo apt install wezterm
 stow -t ~ path/to/this/repo/wezterm
 ```
+
+## 11. Flatpak packages
+
+```
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub rest.insomnia.Insomnia
+flatpak install flathub io.github.realmazharhussain.GdmSettings
+```
