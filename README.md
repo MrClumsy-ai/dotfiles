@@ -104,4 +104,11 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 flatpak install flathub rest.insomnia.Insomnia
 flatpak install flathub io.github.realmazharhussain.GdmSettings
 flatpak install flathub com.github.finefindus.eyedropper
+flatpak install flathub com.valvesoftware.Steam
+```
+
+## 12. Wine (gaming)
+
+```
+sudo dpkg --add-architecture i386 && sudo apt update
 ```
