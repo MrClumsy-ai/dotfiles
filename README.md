@@ -103,4 +103,5 @@ sudo apt install gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub rest.insomnia.Insomnia
 flatpak install flathub io.github.realmazharhussain.GdmSettings
+flatpak install flathub com.github.finefindus.eyedropper
 ```
