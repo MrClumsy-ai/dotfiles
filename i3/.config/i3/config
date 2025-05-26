@@ -16,7 +16,7 @@ exec_always --no-startup-id killall polybar
 # top bar with info
 exec_always --no-startup-id polybar
 # transparency
-exec_always --no-startup-id compton
+exec_always --no-startup-id picom
 # background
 exec_always feh --bg-fill /usr/share/backgrounds/Dynamic_Wallpapers/Catalina/Catalina-7.jpg
 # brightness buttons
