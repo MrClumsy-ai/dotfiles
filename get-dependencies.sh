@@ -4,7 +4,11 @@ echo "hello epic gamer"
 echo "updating your epic gaming pc"
 sudo apt update && sudo apt upgrade -y && \
 sudo apt autoremove && sudo apt-get update -y
+echo ""
+echo ""
 echo "installing allat"
+echo ""
+echo ""
 sudo apt-get install ninja-build gettext cmake \
 curl build-essential nodejs npm golang git pip \
 libssl-dev zlib1g-dev libbz2-dev libreadline-dev \
