@@ -70,9 +70,10 @@ chsh eduardo
 
 /bin/zsh <CR>
 download Jetbrains mono nerd font
+https://github.com/ryanoasis/nerd-fonts/releases
 
 ```
-sudo unzip Downloads/JetBrainsMonoNerd.zip -d /usr/share/fonts/truetype
+sudo unzip Downloads/JetBrainsMono.zip -d /usr/share/fonts/truetype
 stow -t ~ path/to/this/repo/zsh
 source ~/.zshrc
 ```
@@ -111,4 +112,10 @@ flatpak install flathub com.valvesoftware.Steam
 
 ```
 sudo dpkg --add-architecture i386 && sudo apt update
+```
+
+## 13. alacritty
+
+```
+cargo install alacritty
 ```
