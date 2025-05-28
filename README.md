@@ -108,6 +108,12 @@ flatpak install flathub com.github.finefindus.eyedropper
 flatpak install flathub com.valvesoftware.Steam
 ```
 
+for flatpak to show up in i3 rofi, do (symlink):
+
+```
+sudo ln -s /var/lib/flatpak/exports/bin/com.appname /usr/bin/appname
+```
+
 ## 12. Wine (gaming)
 
 ```
