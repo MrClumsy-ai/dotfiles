@@ -21,5 +21,5 @@ mod key: ctrl+s
 - create session from within session
 
 ```
-mod+s :new
+mod :new
 ```
