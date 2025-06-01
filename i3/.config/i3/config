@@ -13,6 +13,7 @@ set $mod Mod1
 # search for apps
 bindsym $mod+space exec rofi -show combi
 bindsym $mod+Shift+s exec flameshot gui
+bindsym $mod+b exec firefox
 # top bar with info
 
 exec_always --no-startup-id killall polybar
