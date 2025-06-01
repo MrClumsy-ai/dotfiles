@@ -1,5 +1,7 @@
 # i3
 
+mod key: alt
+
 - log out of i3
 
 ```
@@ -13,6 +15,8 @@ mod+shift+r
 ```
 
 # tmux
+
+mod key: ctrl+s
 
 - create session from within session
 
