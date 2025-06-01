@@ -17,6 +17,8 @@ bindsym $mod+Shift+s exec flameshot gui
 
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id polybar -q main -c ~/.config/polybar/blocks/config.ini &
+# exec_always --no-startup-id polybar
+
 # transparency
 exec_always --no-startup-id picom
 # background
