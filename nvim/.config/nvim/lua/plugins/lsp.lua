@@ -33,6 +33,7 @@ return {
 				vim.keymap.set("n", "gi", vim.lsp.buf.implementation, {})
 				vim.keymap.set("n", "gr", require("telescope.builtin").lsp_references, {})
 				vim.keymap.set("n", "<leader>K", vim.lsp.buf.hover, {})
+				vim.keymap.set("i", "<C-h>", vim.lsp.buf.signature_help, {})
 			end
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 			local lspconfig = require("lspconfig")
