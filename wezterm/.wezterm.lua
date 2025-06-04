@@ -4,7 +4,7 @@ config.warn_about_missing_glyphs = false
 config.color_scheme = "Gruvbox dark, hard (base16)"
 config.colors = { background = "black" }
 config.font_size = 16
-config.window_background_opacity = 0.6
+config.window_background_opacity = 0.8
 config.enable_tab_bar = false
 config.default_cursor_style = "BlinkingBar"
 config.cursor_blink_ease_out = "Linear"
