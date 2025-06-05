@@ -14,15 +14,11 @@ set $mod Mod1
 bindsym $mod+space exec rofi -show combi
 bindsym $mod+Shift+s exec flameshot gui
 bindsym $mod+b exec firefox
-# top bar with info
-
+bindsym ctrl+$mod+l exec --no-startup-id sleep 1 && xset dpms force suspend
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id polybar
-# exec_always --no-startup-id polybar
 
-# transparency
 exec_always --no-startup-id picom
-# background
 exec_always feh --bg-fill /usr/share/backgrounds/Dynamic_Wallpapers/Catalina/Catalina-7.jpg
 # brightness buttons
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
