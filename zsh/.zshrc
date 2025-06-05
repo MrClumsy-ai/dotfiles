@@ -62,6 +62,7 @@ alias ls='ls --color'
 alias c='clear'
 alias q='exit'
 alias nv="nvim"
+alias ta="tmux a"
 
 # shell integrations
 # eval "$(fzf --zsh)"
