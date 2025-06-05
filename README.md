@@ -119,3 +119,9 @@ sudo ln -s /var/lib/flatpak/exports/bin/com.appname /usr/bin/appname
 ```bash
 sudo dpkg --add-architecture i386 && sudo apt update
 ```
+
+# 13. Alacritty
+
+```
+export PATH="/home/eduardo/.cargo/bin:$PATH"
+```
