@@ -14,7 +14,7 @@ set $mod Mod1
 bindsym $mod+space exec rofi -show combi
 bindsym $mod+Shift+s exec flameshot gui
 bindsym $mod+b exec firefox
-bindsym ctrl+$mod+l exec --no-startup-id sleep 1 && xset dpms force suspend
+bindsym ctrl+$mod+l exec --no-startup-id loginctl lock-session
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id polybar
 
