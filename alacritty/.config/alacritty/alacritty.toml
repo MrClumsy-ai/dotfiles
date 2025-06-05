@@ -1,4 +1,9 @@
 # ligatures are not possible in alacritty (->, =>, etc)
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/gruvbox_material_hard_dark.toml"
+]
 [font]
 normal = {family = "JetBrainsMono Nerd Font", style = "Regular"}
 
