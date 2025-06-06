@@ -15,7 +15,7 @@ bindsym $mod+space exec rofi -show combi
 bindsym $mod+Shift+s exec flameshot gui
 bindsym $mod+b exec firefox
 bindsym ctrl+$mod+l exec --no-startup-id loginctl lock-session
-bindsym $mod+m exec ~/.config/polybar/scripts/launcher.sh &
+bindsym $mod+m exec rofi -no-lazy-grab -show drun -modi drun
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id polybar
 
