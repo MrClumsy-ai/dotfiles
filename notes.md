@@ -14,6 +14,20 @@ mod+shift+e
 mod+shift+r
 ```
 
+- network configuration
+
+get all nearby wifi
+
+```
+nmcli dev wifi
+```
+
+connect to wifi
+
+```
+nmcli device wifi connect [APName] password [password]
+```
+
 # tmux
 
 mod key: ctrl+s
