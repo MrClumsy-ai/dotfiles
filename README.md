@@ -125,3 +125,5 @@ sudo dpkg --add-architecture i386 && sudo apt update
 ```
 export PATH="/home/eduardo/.cargo/bin:$PATH"
 ```
+
+test
