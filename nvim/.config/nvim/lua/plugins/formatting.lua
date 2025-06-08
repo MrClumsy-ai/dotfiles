@@ -10,6 +10,7 @@ return {
 				c = { "clang-format" },
 				bash = { "beautysh" },
 				cs = { "clang-format" },
+        rust = {"rustfmt"},
 				["_"] = { "prettier" },
 			},
 			default_format_opts = {
