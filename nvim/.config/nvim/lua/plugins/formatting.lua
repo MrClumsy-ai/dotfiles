@@ -4,11 +4,11 @@ return {
   config = function()
     require("conform").setup({
       formatters_by_ft = {
-				lua = { "stylua" },
-				python = { "pylsp" },
-				go = { "gofumpt" },
-				c = { "ast-grep" },
-				bash = { "beautysh" },
+        lua = { "stylua" },
+        python = { "pylsp" },
+        go = { "gofumpt" },
+        c = { "ast-grep" },
+        bash = { "beautysh" },
         ["*"] = { "prettier" },
       },
       default_format_opts = {
@@ -19,6 +19,8 @@ return {
       -- 	lsp_fallback = true,
       -- },
     })
-    vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
+    vim.keymap.set('n', '<leader>gf', function()
+      require('conform').format({ async = true, lsp_fallback = true })
+    end, { desc = 'Format file with conform.nvim' })
   end,
 }
