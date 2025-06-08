@@ -9,14 +9,14 @@ return {
 		require("mason").setup()
 		require("mason-lspconfig").setup({
 			ensure_installed = {
-				"css_variables",
+				"clangd",
+				"cssls",
 				"gopls",
 				"html",
+				"htmx",
 				"lua_ls",
-				"pyright",
-				"quick_lint_js",
+				"pylsp",
 				"rust_analyzer",
-				"vuels",
 				"ts_ls",
 			},
 			handlers = {
