@@ -1,11 +1,6 @@
 -- project viewer (open nvim file explorer)
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
--- enter normal mode
-vim.keymap.set("i", "<C-j>", "<Esc>")
--- vim.keymap.set("i", "jj", "<Esc>")
-vim.keymap.set("v", "<C-j>", "<Esc>")
-
 -- enter normal mode in terminal
 vim.keymap.set("t", "<M-j>", "<c-\\><c-n>")
 
