@@ -37,6 +37,7 @@ autoload -U compinit && compinit
 bindkey '^k' autosuggest-accept
 bindkey '^h' history-search-backward
 bindkey '^l' history-search-forward
+bindkey -s ^f "tmux-sessionizer\n"
 
 # history
 HISTSIZE=5000
@@ -69,5 +70,6 @@ alias ta="tmux a"
 
 # supress warnings
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+PATH="$PATH":"$HOME/.local/scripts/"
 
 [[ -s "/home/eduardo/.gvm/scripts/gvm" ]] && source "/home/eduardo/.gvm/scripts/gvm"
