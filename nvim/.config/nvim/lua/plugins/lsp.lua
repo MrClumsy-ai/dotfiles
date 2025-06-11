@@ -33,5 +33,8 @@ return {
 		vim.keymap.set("n", "gr", require("telescope.builtin").lsp_references, {})
 		vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 		vim.keymap.set("i", "<C-h>", vim.lsp.buf.signature_help, {})
+		vim.keymap.set("n", "<leader>vd", function ()
+      vim.diagnostic.open_float()
+		end)
 	end,
 }
