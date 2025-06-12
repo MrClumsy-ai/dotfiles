@@ -54,6 +54,9 @@ vim.keymap.set("i", "[", "[]<Esc>i")
 vim.keymap.set("i", "{", "{}<Esc>i")
 vim.keymap.set("i", '"', '""<Esc>i')
 
+-- language specific shortcuts
+vim.keymap.set("n", "<leader>ee", "iif err != nil {<CR>}<Esc>O")
+vim.keymap.set("n", "<leader>ed", "iexport default () => {<CR>}<Esc>O")
 --[[
 -- plugin commands:
 floaterminal
