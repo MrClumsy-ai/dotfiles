@@ -1,9 +1,6 @@
 -- project viewer (open nvim file explorer)
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
--- enter normal mode in terminal
-vim.keymap.set("t", "<M-j>", "<c-\\><c-n>")
-
 -- save and quit
 vim.keymap.set("n", "<leader>w", "<CMD>w<CR>")
 vim.keymap.set("n", "<leader>q", "<CMD>q!<CR>")
