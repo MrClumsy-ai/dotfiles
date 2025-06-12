@@ -64,6 +64,7 @@ alias c='clear'
 alias q='exit'
 alias nv="nvim"
 alias ta="tmux a"
+alias py3="python3.13"
 
 # shell integrations
 # eval "$(fzf --zsh)"
