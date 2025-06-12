@@ -20,7 +20,7 @@ exec_always --no-startup-id killall polybar
 exec_always --no-startup-id polybar
 
 exec_always --no-startup-id picom
-exec_always feh --bg-fill /usr/share/backgrounds/Dynamic_Wallpapers/Catalina/Catalina-7.jpg
+exec_always feh --bg-fill ~/Pictures/Wallpapers/eldenring_roundtable.jpg
 # brightness buttons
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
