@@ -13,8 +13,8 @@ vim.keymap.set("n", "}", "}zz")
 vim.keymap.set("n", "G", "Gzz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
-vim.keymap.set("n", "n", "nzzzv")
-vim.keymap.set("n", "N", "Nzzzv")
+vim.keymap.set("n", "n", "nzz")
+vim.keymap.set("n", "N", "Nzz")
 
 -- move 10
 -- vim.keymap.set("n", "J", "10jzz")
@@ -52,13 +52,10 @@ vim.keymap.set("i", "{", "{}<Esc>i")
 vim.keymap.set("i", '"', '""<Esc>i')
 
 -- language specific shortcuts
-vim.keymap.set("n", "<leader>ee", "iif err != nil {<CR>}<Esc>O")
-vim.keymap.set("n", "<leader>ed", "iexport default () => {<CR>}<Esc>O")
---[[
--- plugin commands:
-floaterminal
-vim.keymap.set({"n", "t"}, "<leader>tt", toggle_terminal)
+vim.keymap.set("n", "<leader>ee", "iif err != nil {<CR>}<Esc>Oreturn err<Esc>")
+vim.keymap.set("n", "<leader>ed", "iexport default () => {<CR>}<Esc>Oreturn(<CR><Tab><><CR><Tab></><CR>)<Esc>")
 
+--[[
 -- fugitive
 vim.keymap.set("n", "<leader>gs", vim.cmd.Git)
 vim.keymap.set("n", "<leader>gp", ":Git push<CR>")
@@ -81,11 +78,15 @@ end)
 -- undoTree
 vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
 
--- mason
-vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, {})
-vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
-vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
-vim.keymap.set("n", "gi", vim.lsp.buf.implementation, {})
-vim.keymap.set("n", "gr", require("telescope.builtin").lsp_references, {})
-vim.keymap.set("n", "<leader>K", vim.lsp.buf.hover, {})
+-- LSP
+vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, { desc = "LSP rename" })
+vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, { desc = "LSP code action" })
+vim.keymap.set("n", "gd", vim.lsp.buf.definition, { desc = "LSP get definition" })
+vim.keymap.set("n", "gi", vim.lsp.buf.implementation, { desc = "LSP get implementation" })
+vim.keymap.set("n", "gr", require("telescope.builtin").lsp_references, { desc = "LSP get references" })
+vim.keymap.set("n", "K", vim.lsp.buf.hover, { desc = "LSP hover" })
+vim.keymap.set("i", "<C-h>", vim.lsp.buf.signature_help, { desc = "LSP signature help" })
+vim.keymap.set("n", "<leader>vd", function()
+  vim.diagnostic.open_float()
+end, { desc = "LSP view diagnostics" })
 ]]
