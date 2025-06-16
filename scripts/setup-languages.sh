@@ -9,12 +9,8 @@ sudo npm install -g typescript
 echo "golang"
 bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
 source ~/.gvm/scripts/gvm
-gvm install go1.20.8
-gvm use go1.20.8
-gvm install 1.23.0
-gvm use 1.23.0
-gvm install go1.24.3
-gvm use 1.24.3 --default
+gvm install go1.24.4
+gvm use 1.24.4 --default
 
 echo "rust"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
