@@ -62,6 +62,27 @@ make CMAKE_BUILD_TYPE=RelWithDebInfo
 cd build && cpack -G DEB && sudo dpkg -i nvim-linux-x86_64.deb
 ```
 
+### Mason
+
+one of these might fail to install, if so, check the log and install the necesarry package manager (npm, jdk, python, etc.)
+
+- omnisharp (keywords: c#)
+- ast-grep ast_grep (keywords: c, c++, rust, go, java, python, c#, javascript, jsx, typescript, html, css, kotlin, dart, lua)
+- clangd (keywords: c, c++)
+- csharp-language-server csharp_ls (keywords: c#)
+- css-lsp cssls (keywords: css, scss, less)
+- css-variables-language-server css_variables (keywords: css, scss, less)
+- gopls (keywords: go)
+- html-lsp html (keywords: html)
+- htmx-lsp htmx (keywords: htmx)
+- lua-language-server lua_ls (keywords: lua)
+- pyright (keywords: python)
+- python-lsp-server pylsp (keywords: python)
+- quick-lint-js quick_lint_js (keywords: javascript, typescript)
+- rust-analyzer rust_analyzer (keywords: rust)
+- typescript-language-server ts_ls (keywords: typescript, javascript)
+- vetur-vls vuels (keywords: vue)
+
 ## 8. Shell configuration
 
 ```bash
