@@ -4,6 +4,8 @@ return {
 		"williamboman/mason.nvim",
 		"williamboman/mason-lspconfig.nvim",
 		"nvimtools/none-ls.nvim",
+		"Hoffs/omnisharp-extended-lsp.nvim",
+		"Issafalcon/neotest-dotnet",
 	},
 	config = function()
 		require("mason").setup()
