@@ -67,6 +67,7 @@ cd build && cpack -G DEB && sudo dpkg -i nvim-linux-x86_64.deb
 one of these might fail to install, if so, check the log and install the necesarry package manager (npm, jdk, python, etc.)
 
 - ast-grep ast_grep (keywords: c, c++, rust, go, java, python, c#, javascript, jsx, typescript, html, css, kotlin, dart, lua)
+- bash-language-server bashls (keywords: bash, csh, ksh, sh, zsh)
 - clangd (keywords: c, c++)
 - csharp-language-server csharp_ls (keywords: c#)
 - css-lsp cssls (keywords: css, scss, less)
@@ -74,12 +75,13 @@ one of these might fail to install, if so, check the log and install the necesar
 - gopls (keywords: go)
 - html-lsp html (keywords: html)
 - htmx-lsp htmx (keywords: htmx)
-- omnisharp (keywords: c#)
 - lua-language-server lua_ls (keywords: lua)
+- omnisharp (keywords: c#)
 - pyright (keywords: python)
 - python-lsp-server pylsp (keywords: python)
 - quick-lint-js quick_lint_js (keywords: javascript, typescript)
 - rust-analyzer rust_analyzer (keywords: rust)
+- templ (keywords: go, html)
 - typescript-language-server ts_ls (keywords: typescript, javascript)
 - vetur-vls vuels (keywords: vue)
 
