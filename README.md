@@ -66,7 +66,6 @@ cd build && cpack -G DEB && sudo dpkg -i nvim-linux-x86_64.deb
 
 one of these might fail to install, if so, check the log and install the necesarry package manager (npm, jdk, python, etc.)
 
-- omnisharp (keywords: c#)
 - ast-grep ast_grep (keywords: c, c++, rust, go, java, python, c#, javascript, jsx, typescript, html, css, kotlin, dart, lua)
 - clangd (keywords: c, c++)
 - csharp-language-server csharp_ls (keywords: c#)
@@ -75,6 +74,7 @@ one of these might fail to install, if so, check the log and install the necesar
 - gopls (keywords: go)
 - html-lsp html (keywords: html)
 - htmx-lsp htmx (keywords: htmx)
+- omnisharp (keywords: c#)
 - lua-language-server lua_ls (keywords: lua)
 - pyright (keywords: python)
 - python-lsp-server pylsp (keywords: python)
