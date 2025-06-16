@@ -9,5 +9,4 @@ echo 'git config --global user.name "epic_gamer_42069"'
 echo 'git config --global user.email "gamer@gaming.com"'
 echo "####################################################################"
 
-# wine wine32 wine64 libwine libwine:i386 fonts-wine \
-# steam-devices
+# wine wine32 wine64 libwine libwine:i386 fonts-wine steam-devices
