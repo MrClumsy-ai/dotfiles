@@ -10,7 +10,8 @@ return {
 				sh = { "beautysh" },
 				c = { "clang-format" },
 				cpp = { "clang-format" },
-				cs = { "clang-format" },
+				cs = { "csharpier" },
+				cshtml = { "csharpier" },
 				go = { "gofumpt" },
 				lua = { "stylua" },
 				python = { "autopep8" },
@@ -22,8 +23,8 @@ return {
 			},
 			formatters = {
 				csharpier = {
-					command = "dotnet-csharpier",
-					args = { "--write-stdout" },
+					command = "csharpier",
+					args = { "format" },
 				},
 			},
 		})
