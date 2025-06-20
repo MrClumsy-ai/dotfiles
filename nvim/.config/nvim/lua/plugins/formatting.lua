@@ -8,16 +8,23 @@ return {
 	config = function()
 		require("conform").setup({
 			formatters_by_ft = {
-				sh = { "beautysh" },
 				c = { "clang-format" },
 				cpp = { "clang-format" },
-				cs = { "csharpier" },
-				cshtml = { "csharpier" },
+        cs = { "csharpier" },
+        css = { "prettier" },
 				go = { "gofumpt" },
+				html = { "prettier" },
+        java = {"clang-format"},
+				json = { "prettier" },
+				jsx = { "prettier" },
+				javascript = { "prettier" },
 				lua = { "stylua" },
+				markdown = { "prettier" },
 				python = { "autopep8" },
-				rust = { "rustfmt" }, -- rustup component add rustfmt-latest
-				["_"] = { "prettier" },
+				rust = { "rustfmt" },
+				sh = { "beautysh" },
+				typescript = { "prettier" },
+				vue = { "prettier" },
 			},
 			default_format_opts = {
 				lsp_format = "fallback",
