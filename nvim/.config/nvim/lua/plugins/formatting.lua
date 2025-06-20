@@ -2,6 +2,7 @@ return {
 	"stevearc/conform.nvim",
 	dependencies = {
 		"Hoffs/omnisharp-extended-lsp.nvim",
+		"jlcrochet/vim-razor",
 	},
 	event = { "BufReadPre", "BufNewFile" },
 	config = function()

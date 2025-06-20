@@ -71,6 +71,6 @@ alias py3="python3.13"
 
 # supress warnings
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
-PATH="$PATH":"$HOME/.local/scripts/"
+PATH="$PATH":"$HOME/.local/scripts/:$HOME/.dotnet/tools/"
 
 [[ -s "/home/eduardo/.gvm/scripts/gvm" ]] && source "/home/eduardo/.gvm/scripts/gvm"
