@@ -15,7 +15,10 @@ return {
 					rootMarkers = { ".git/" },
 					languages = {
 						razor = {
-							{ formatCommand = "dotnet format --include", formatStdin = false },
+							{ formatCommand = "dotnet format --include ${INPUT}", formatStdin = false },
+						},
+						cshtml = {
+							{ formatCommand = "dotnet format --include ${INPUT}", formatStdin = false },
 						},
 					},
 				},
