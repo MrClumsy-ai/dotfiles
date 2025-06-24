@@ -52,7 +52,7 @@ vim.keymap.set("i", "{", "{}<Esc>i")
 vim.keymap.set("i", '"', '""<Esc>i')
 
 -- language specific shortcuts
-vim.keymap.set("n", "<leader>ee", "iif err != nil {<CR>}<Esc>Oreturn err<Esc>")
+vim.keymap.set("n", "<leader>ee", "oif err != nil {<CR>}<Esc>Oreturn err<Esc>")
 vim.keymap.set("n", "<leader>ed", "iexport default () => {<CR>}<Esc>Oreturn(<CR><Tab><><CR><Tab></><CR>)<Esc>")
 vim.keymap.set("n", "<leader>egs", "{ get; set; }<Esc>")
 
