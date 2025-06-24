@@ -55,6 +55,8 @@ vim.keymap.set("i", '"', '""<Esc>i')
 vim.keymap.set("n", "<leader>ee", "oif err != nil {<CR>}<Esc>Oreturn err<Esc>")
 vim.keymap.set("n", "<leader>ed", "iexport default () => {<CR>}<Esc>Oreturn(<CR><Tab><><CR><Tab></><CR>)<Esc>")
 vim.keymap.set("n", "<leader>egs", "{ get; set; }<Esc>")
+vim.keymap.set("n", "<leader>ce", ":Copilot enable<CR>")
+vim.keymap.set("n", "<leader>cd", ":Copilot disable<CR>")
 
 --[[
 -- fugitive
