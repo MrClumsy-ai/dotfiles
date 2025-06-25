@@ -26,6 +26,14 @@ return {
 		},
 	},
 	config = function()
+		vim.api.nvim_create_autocmd("LspAttach", {
+			callback = function(args)
+				local client = assert(vim.lsp.get_client_by_id(args.data.client_id))
+				if client.server_capabilities.inlayHintProvider then
+					vim.lsp.inlay_hint.enable(true)
+				end
+			end,
+		})
 		require("mason").setup({
 			registries = {
 				"github:mason-org/mason-registry",
@@ -75,5 +83,8 @@ return {
 		vim.keymap.set("n", "<leader>vd", function()
 			vim.diagnostic.open_float()
 		end, { desc = "LSP view diagnostics" })
+		vim.keymap.set("n", "<leader>ih", function()
+			vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
+		end, { desc = "Toggle inlay hints" })
 	end,
 }
