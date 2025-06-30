@@ -6,9 +6,6 @@ config.colors = { background = "black" }
 config.font_size = 16
 config.window_background_opacity = 0.8
 config.enable_tab_bar = false
-config.default_cursor_style = "BlinkingBar"
-config.cursor_blink_ease_out = "Linear"
-config.cursor_blink_rate = 400
 config.window_padding = {
 	left = 0,
 	right = 0,
