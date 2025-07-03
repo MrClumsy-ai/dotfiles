@@ -20,7 +20,7 @@ exec_always --no-startup-id killall polybar
 exec_always --no-startup-id polybar
 exec_always --no-startup-id xset s 900
 
-exec_always --no-startup-id picom
+exec_always --no-startup-id picom --experimental-backends -b
 exec_always feh --bg-fill ~/Pictures/Wallpapers/nokron.png
 # brightness buttons
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
