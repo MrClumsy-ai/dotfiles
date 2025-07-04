@@ -74,3 +74,10 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 PATH="$PATH":"$HOME/.local/scripts/:$HOME/.dotnet/tools/"
 
 [[ -s "/home/eduardo/.gvm/scripts/gvm" ]] && source "/home/eduardo/.gvm/scripts/gvm"
+
+# bun completions
+[ -s "/home/eduardo/.bun/_bun" ] && source "/home/eduardo/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
