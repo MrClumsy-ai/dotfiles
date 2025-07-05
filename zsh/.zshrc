@@ -29,9 +29,6 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light ael-code/zsh-colored-man-pages
 zinit light Aloxaf/fzf-tab
 
-# snippets
-zinit snippet OMZP::git
-
 autoload -U compinit && compinit
 
 # history
@@ -60,6 +57,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 # aliases
 alias vim="nvim"
 alias ls='ls --color'
+alias glog='git log --graph --oneline --decorate --all'
 
 # supress warnings
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
