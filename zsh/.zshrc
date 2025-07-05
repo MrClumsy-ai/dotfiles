@@ -34,12 +34,6 @@ zinit snippet OMZP::git
 
 autoload -U compinit && compinit
 
-bindkey '^k' autosuggest-accept
-bindkey '^h' history-search-backward
-bindkey '^l' history-search-forward
-bindkey -s ^f "tmux-sessionizer\n"
-bindkey -v
-
 # history
 HISTSIZE=5000
 HISTFILE=~/.zsh_history
@@ -87,3 +81,7 @@ PATH="$PATH":"$HOME/.local/scripts/:$HOME/.dotnet/tools/"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+bindkey -v
+bindkey '^k' autosuggest-accept
+bindkey -s '^f' "tmux-sessionizer\n"
