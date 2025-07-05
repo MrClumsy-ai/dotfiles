@@ -21,9 +21,9 @@ exec_always --no-startup-id killall polybar
 exec_always --no-startup-id bash ~/.local/scripts/launch_polybar.sh
 exec_always --no-startup-id xset s 900
 exec_always --no-startup-id picom --experimental-backends -b
-# for laptop: ~/Pictures/Wallpapers/nokron.jpg
+# for laptop: ~/Pictures/Wallpapers/nokron.png
 # for PC: ~/Pictures/wallpapers/perla-negra.jpg
-exec_always feh --bg-fill ~/Pictures/Wallpapers/nokron.jpg
+exec_always feh --bg-fill ~/Pictures/Wallpapers/nokron.png
 # brightness buttons
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
