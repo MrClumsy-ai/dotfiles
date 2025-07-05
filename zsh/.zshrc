@@ -64,6 +64,7 @@ zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 
 # aliases
+alias vim="nvim"
 alias ls='ls --color'
 alias c='clear'
 alias q='exit'
