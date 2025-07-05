@@ -38,6 +38,7 @@ bindkey '^k' autosuggest-accept
 bindkey '^h' history-search-backward
 bindkey '^l' history-search-forward
 bindkey -s ^f "tmux-sessionizer\n"
+bindkey -v
 
 # history
 HISTSIZE=5000
