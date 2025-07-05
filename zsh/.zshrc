@@ -57,6 +57,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 # aliases
 alias vim="nvim"
 alias ls='ls --color'
+alias q='exit'
 alias glog='git log --graph --oneline --decorate --all'
 alias gst='git status'
 
