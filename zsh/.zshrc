@@ -58,6 +58,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 alias vim="nvim"
 alias ls='ls --color'
 alias glog='git log --graph --oneline --decorate --all'
+alias gst='git status'
 
 # supress warnings
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
