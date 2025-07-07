@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo apt-get update
 echo "installing all building requirements"
 sudo apt-get install ninja-build gettext cmake curl build-essential
 echo "cloning into neovim repository"

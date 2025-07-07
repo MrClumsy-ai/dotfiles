@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo apt-get update
 sudo apt-get install stow ripgrep neofetch unzip copyq curl wget gcc zip git fzf fd-find
 git config --global init.defaultBranch main
 echo "####################################################################"
