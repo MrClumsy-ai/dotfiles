@@ -3,7 +3,7 @@ sudo apt-get update
 sudo apt-get install luarocks golang nodejs python3-venv
 
 echo "typescript"
-sudo apt-get install nodejs npm
+sudo apt-get install npm
 sudo npm install -g typescript
 
 echo "golang"
