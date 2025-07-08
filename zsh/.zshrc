@@ -67,6 +67,11 @@ PATH="$PATH":"$HOME/.local/scripts/:$HOME/.dotnet/tools/"
 
 [[ -s "/home/eduardo/.gvm/scripts/gvm" ]] && source "/home/eduardo/.gvm/scripts/gvm"
 
+# snap packages
+if [ -d "/snap/bin" ]; then
+  PATH="/snap/bin:$PATH"
+fi
+
 # bun completions
 [ -s "/home/eduardo/.bun/_bun" ] && source "/home/eduardo/.bun/_bun"
 
