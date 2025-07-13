@@ -69,7 +69,12 @@ return {
 			handlers = {
 				function(server_name)
 					print("setting up", server_name)
-					require("lspconfig")[server_name].setup({})
+					local capabilities = vim.lsp.protocol.make_client_capabilities()
+					capabilities = require("cmp_nvim_lsp").default_capabilities(capabilities)
+					local opts = {
+						capabilities = capabilities,
+					}
+					require("lspconfig")[server_name].setup(opts)
 				end,
 			},
 		})
