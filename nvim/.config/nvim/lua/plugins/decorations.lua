@@ -73,9 +73,9 @@ return {
 			require("lualine").setup({
 				sections = {
 					lualine_a = { "mode" },
-          lualine_b = { "filename" },
-          lualine_c = { "filetype" },
-          lualine_x = {},
+					lualine_b = { "filename" },
+					lualine_c = { "filetype" },
+					lualine_x = {},
 					lualine_y = { "diff", "diagnostics" },
 					lualine_z = { "branch" },
 				},
