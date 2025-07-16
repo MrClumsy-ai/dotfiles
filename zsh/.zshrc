@@ -82,3 +82,6 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 bindkey -v
 bindkey '^k' autosuggest-accept
 bindkey -s '^f' "tmux-sessionizer\n"
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
