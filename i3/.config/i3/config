@@ -18,12 +18,13 @@ bindsym ctrl+$mod+l exec --no-startup-id loginctl lock-session
 bindsym $mod+m exec rofi -no-lazy-grab -show drun -modi drun
 
 exec_always --no-startup-id xmodmap ~/.config/xmodmap/real-prog-dvorak
+exec_always --no-startup-id xrandr --output DP-4 --mode 2560x1440 --rate 165.00
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id bash ~/.local/scripts/launch_polybar.sh
 exec_always --no-startup-id xset s 900
 exec_always --no-startup-id picom --experimental-backends -b
 # exec_always feh --bg-fill ~/Pictures/Wallpapers/nokron.png
-exec_always feh --bg-fill ~/Pictures/wallpapers/perla-negra.jpg
+exec_always feh --bg-fill ~/Pictures/wallpapers/BigSur/BigmacOSSur-6.jpg
 # brightness buttons
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
