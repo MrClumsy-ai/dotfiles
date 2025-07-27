@@ -25,6 +25,8 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
+vim.opt.winborder = "rounded"
+
 vim.g.mapleader = " "
 
 vim.api.nvim_create_autocmd("TextYankPost", {
