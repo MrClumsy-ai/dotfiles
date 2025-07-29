@@ -46,10 +46,10 @@ vim.keymap.set("v", "<leader>s", [[:s/\(.*\)/]]) -- fighting one eyed kirby mome
 vim.keymap.set("n", "Q", "<nop>")
 
 -- complete commands
-vim.keymap.set("i", "(", "()<Esc>i")
-vim.keymap.set("i", "[", "[]<Esc>i")
-vim.keymap.set("i", "{", "{}<Esc>i")
-vim.keymap.set("i", '"', '""<Esc>i')
+-- vim.keymap.set("i", "(", "()<Esc>i")
+-- vim.keymap.set("i", "[", "[]<Esc>i")
+-- vim.keymap.set("i", "{", "{}<Esc>i")
+-- vim.keymap.set("i", '"', '""<Esc>i')
 
 -- language specific shortcuts
 vim.keymap.set("n", "<leader>ee", "oif err != nil {<CR>}<Esc>Oreturn err<Esc>")
