@@ -80,7 +80,7 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 bindkey -v
-bindkey '^k' autosuggest-accept
+bindkey '^t' autosuggest-accept
 bindkey -s '^f' "tmux-sessionizer\n"
 
 # Generated for envman. Do not edit.
