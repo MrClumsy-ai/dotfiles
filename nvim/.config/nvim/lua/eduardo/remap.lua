@@ -24,6 +24,15 @@ vim.keymap.set("n", "N", "Nzz")
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
+-- C-c when in visual block mode, now does what i want it to do
+vim.keymap.set("i", "<C-c>", "<Esc>")
+
+-- tmux sessionizer
+vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
+
+-- make executable
+vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
+
 -- void register
 vim.keymap.set("x", "<leader>p", '"_dP')
 vim.keymap.set("n", "<leader>d", '"_d')
