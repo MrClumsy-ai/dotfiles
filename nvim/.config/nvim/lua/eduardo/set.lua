@@ -19,7 +19,7 @@ vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 
-vim.opt.scrolloff = 10
+vim.opt.scrolloff = 15
 vim.opt.sidescrolloff = 10
 vim.opt.isfname:append("@-@")
 
