@@ -1,5 +1,5 @@
 -- project viewer (open nvim file explorer)
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+-- vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 -- save and quit
 vim.keymap.set("n", "<leader>w", "<CMD>w<CR>")
