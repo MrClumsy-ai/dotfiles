@@ -6,8 +6,8 @@ vim.keymap.set("n", "<leader>w", "<CMD>w<CR>")
 vim.keymap.set("n", "<leader>q", "<CMD>q!<CR>")
 
 -- center movement
--- vim.keymap.set("n", "j", "jzz")
--- vim.keymap.set("n", "k", "kzz")
+vim.keymap.set("n", "j", "jzz")
+vim.keymap.set("n", "k", "kzz")
 vim.keymap.set("n", "{", "{zz")
 vim.keymap.set("n", "}", "}zz")
 vim.keymap.set("n", "G", "Gzz")
