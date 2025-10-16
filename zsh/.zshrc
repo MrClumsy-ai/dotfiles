@@ -72,6 +72,12 @@ if [ -d "/snap/bin" ]; then
   PATH="/snap/bin:$PATH"
 fi
 
+# /var/lib/flatpak/app/org.shotcut.Shotcut/current/active/export/bin/org.shotcut.Shotcut
+# shotcut
+if [ -d "/var/lib/flatpak/app/org.shotcut.Shotcut/current/active/export/bin" ]; then
+  PATH="/var/lib/flatpak/app/org.shotcut.Shotcut/current/active/export/bin:$PATH"
+fi
+
 # bun completions
 [ -s "/home/eduardo/.bun/_bun" ] && source "/home/eduardo/.bun/_bun"
 
