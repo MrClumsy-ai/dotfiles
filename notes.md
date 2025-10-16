@@ -37,3 +37,18 @@ mod key: ctrl+s
 ```
 mod :new
 ```
+
+# winboat
+
+- go to https://www.winboat.app/
+- download and install latest debian
+- make sure that you have docker installed
+
+```bash
+sudo usermod -aG docker $USER
+sudo gpasswd -a $USER docker
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install com.freerdp.FreeRDP
+sudo systemctl enable docker.service
+sudo systemctl enable containerd.service
+```
