@@ -9,7 +9,8 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+# mod1 for alt, mod4 for windows key
+set $mod Mod4
 # search for apps
 bindsym $mod+space exec rofi -show combi
 bindsym $mod+Shift+s exec flameshot gui
