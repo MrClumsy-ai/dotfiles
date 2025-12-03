@@ -28,6 +28,12 @@ connect to wifi
 nmcli device wifi connect [APName] password [password]
 ```
 
+for changing the mouse cursor/appearance
+
+```bash
+lxappearance
+```
+
 # tmux
 
 mod key: ctrl+s
